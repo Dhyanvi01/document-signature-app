@@ -4,16 +4,18 @@ __pycache__/
 *.pyo
 *.pyd
 *.db
+*.sqlite3
 
-# Virtual environments
+# Virtual environment
 venv/
-backend/venv/
-
-# Environment variables
 .env
+
+# Uploads (user files)
+backend/app/uploads/
 
 # Node
 node_modules/
 
-# Editor
-.vscode/
+# OS
+.DS_Store
+Thumbs.db
